@@ -1,6 +1,6 @@
-import { lazy } from "react";
-import { Navigate } from "react-router-dom";
+import { useRoutes } from "react-router-dom";
+import MainRoutes from "./MainRoutes";
 
-const MainRoutes = {};
-
-export default MainRoutes;
+export default function ThemeRoutes() {
+  return useRoutes([MainRoutes]);
+}
