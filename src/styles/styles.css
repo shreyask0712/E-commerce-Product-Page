@@ -1,6 +1,7 @@
 @font-face {
   font-family: "DN";
-  src: url("../assets/fonts/DigitalNormal-xO6j.otf") format("truetype");
+  src: url("../../public/assets1/fonts/DigitalNormal-xO6j.otf")
+    format("truetype");
   font-weight: bold;
 }
 
