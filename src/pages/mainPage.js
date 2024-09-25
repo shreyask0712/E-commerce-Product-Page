@@ -39,9 +39,9 @@ const MainPage = () => {
       </div>
       <div className="carousel">
         <Slick {...settings}>
-          <div>
+          <div className="image-1">
             <img
-              src="C:\Users\shrey\Documents\GitHub\React\e-commerce-product-page\public\assets1\archive\watches\watches\images\0.jpg"
+              src="/assets1/archive/watches/watches/images/0.jpg"
               alt="Slide 1"
             />
           </div>

@@ -2,7 +2,12 @@ const metadataPath = "/assets1/archive/watches/watches/metadata.csv";
 
 const fetchWatchData = async () => {
   try {
-    const response = await fetch(metadataPath);
+    const response = await fetch(metadataPath, {
+      headers: {
+        "Content-type": "text/csv",
+        "Access-Control-Allow-Origin": "*",
+      },
+    });
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
